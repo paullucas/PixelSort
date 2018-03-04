@@ -6,7 +6,7 @@ import           Graphics.GD
 import           System.Environment
 
 throw :: a
-throw = errorWithoutStackTrace "Provide either a PNG or JPG file"
+throw = errorWithoutStackTrace "Provide either a PNG or JPEG file"
 
 sortImage :: Image -> IO Image
 sortImage image = do
